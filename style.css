@@ -19,7 +19,7 @@ h1 {
 }
 
 .contents2 {
-  /* font-size: ; */
+  font-size: 18px;
 }
 
 .contents3 {
@@ -33,34 +33,21 @@ h1 {
 }
 
 /* --- */
-.top {
-  position: fixed;
-  border: 1px solid black;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  bottom: 50px;
-  right: 40px;
-  text-align: center;
-  line-height: 36px;
-  cursor: pointer;
-}
 
 .result {
   font-size: 24px;
-  font-weight: lighter;
 }
 
 .intro_bg {
-  background-image: url("/image/intro.png");
+  background-image: url("image/intro.png");
   width: 100%;
   height: 714px;
 }
 
 .header {
   width: 1280px;
-  display: flex;
   margin: auto;
+  display: flex;
   height: 86px;
 }
 
@@ -76,7 +63,7 @@ h1 {
   border: none;
   width: 250px;
   height: 40px;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.0);
   color: #fff;
   padding-left: 10px;
 }
@@ -84,15 +71,13 @@ h1 {
 .searchArea>form>span {
   width: 50px;
   color: #fff;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 .nav {
   display: flex;
   justify-content: flex-end;
-  line-height: 86px;
   width: calc(1280px - 300px);
+  line-height: 86px;
 }
 
 .nav>li {
@@ -125,7 +110,7 @@ h1 {
 }
 
 .amount>li:not(:last-child)>div {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #E1E1E1;
 }
 
 .intro_text {
@@ -139,6 +124,8 @@ h1 {
   color: #fff;
 }
 
+/* main_text0 */
+
 .main_text0 {
   width: 100%;
   height: 601px;
@@ -147,7 +134,7 @@ h1 {
 }
 
 .main_text0>h1 {
-  padding-top: 110px;
+  padding-top: 116px;
   text-align: center;
 }
 
@@ -180,7 +167,7 @@ h1 {
 }
 
 .icons .contents2 {
-  width: 240px;
+  width: 280px;
   margin: auto;
   letter-spacing: -1px;
 }
@@ -188,20 +175,24 @@ h1 {
 .more {
   width: 100px;
   height: 30px;
-  background: #2f7af4;
+  background: #2F7AF4;
   color: #fff;
   font-size: 12px;
   line-height: 30px;
   margin: 25px auto;
 }
 
-/* main_text1 */
+/* main_text1*/
+
 .main_text1 {
   width: 100%;
   height: 659px;
+  /* margin-top:-132px; */
+  /* background: #2F7AF4 */
 }
 
 .main_text1>h1 {
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -241,8 +232,8 @@ h1 {
   text-align: center;
 }
 
-.main_text2>ul>li>div>h1,
-.main_text2>ul>li>div {
+.main_text2>ul>li>div,
+.main_text2>ul>li>div>h1 {
   color: #fff;
 }
 
@@ -250,24 +241,25 @@ h1 {
   width: 220px;
   height: 40px;
   border: 1px solid #fff;
+  color: #fff;
   line-height: 40px;
   cursor: pointer;
-  margin: 14px auto;
+  margin: 16px auto;
 }
 
-footer {
+.footer {
   display: flex;
   background: #1f1f1f;
   padding: 30px;
 }
 
-footer>div:first-child {
+.footer>div:first-child {
   flex: 3;
   text-align: center;
   color: #fff;
 }
 
-footer>div:last-child {
+.footer>div:last-child {
   flex: 9;
   color: #fff;
 }
